@@ -1,0 +1,23 @@
+{
+  "name": "sri-create",
+  "version": "0.0.1",
+  "description": "create sri from local file or remote file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "create sri",
+    "local file",
+    "remote file"
+  ],
+  "author": "whale",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.85.0",
+    "sri": "^1.1.0"
+  },
+  "bin": {
+    "create-sri": "./bin/create-sri.js"
+  }
+}
