@@ -1,6 +1,6 @@
 {
   "name": "sri-create",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "create sri from local file or remote file",
   "main": "index.js",
   "scripts": {
