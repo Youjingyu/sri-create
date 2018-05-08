@@ -6,8 +6,8 @@ create sri from local file or remote file
 npm i sri-create -g
 create-sri <file-url|file-path>
 ## for example
-create-sri https://github.com/Youjingyu/sri-create/blob/master/index.js
-## output: sha384-g9DKYp9nQxOuOEs+Nje4BEPAjXGFhDp7EemMl4RMxedE259rme+4qsCFKX9LIE37
+create-sri https://raw.githubusercontent.com/Youjingyu/sri-create/master/index.js
+## output: sha384-ZUyT6D39ELzG6ROLqGHl2YFZux5Itck7tyrrXZIPpIlnI6z2Npm6QYe14vMKXFdJ
 
 ## or
 create-sri /utils/index.js
