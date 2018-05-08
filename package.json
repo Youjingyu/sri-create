@@ -11,8 +11,12 @@
     "local file",
     "remote file"
   ],
-  "author": "whale",
+  "author": "Youjingyu <735284268@qq.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Youjingyu/sri-create"
+  },
   "dependencies": {
     "request": "^2.85.0",
     "sri": "^1.1.0"
