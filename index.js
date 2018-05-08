@@ -5,11 +5,12 @@ const sri = require('sri')
 module.exports = function (path) {
   const getFileFunc = /^http/.test(path) ? fetchFile : getFileFromPath
 
-  getFileFunc(path).then((file) => {
-    console.log('sha384 encryption result:')
-    console.log(sri.getSRIString(file))
-  }).catch((err) => {
-    console.log(err)
+  return new Promise((resolve, reject) => {
+    getFileFunc(path).then((file) => {
+      resolve(sri.getSRIString(file))
+    }).catch((err) => {
+      reject(err)
+    })
   })
 }
 
